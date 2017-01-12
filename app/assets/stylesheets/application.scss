@@ -20,5 +20,19 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  color:#212121;
+  background: #fff;
+  color: #212121;
+  min-height: 100vh;
+}
+
+.section {
+  padding:4rem 0rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 500;
 }
