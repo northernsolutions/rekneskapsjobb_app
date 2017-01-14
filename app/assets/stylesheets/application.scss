@@ -21,18 +21,73 @@ body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
   background: #fff;
-  color: #212121;
-  min-height: 100vh;
+  color: #424242;
 }
 
-.section {
-  padding:4rem 0rem;
+.card {
+  border:none !important;
+  border-radius: 0rem !important;
 }
 
-.center {
+.card-pricing {
+
+}
+
+.card-basic {
+
+}
+
+.card-block {
+  padding:2rem;
+}
+
+.card-exclusive {
+  box-shadow: 0 0 40px rgba(54,67,77,0.2) !important;
+}
+
+.card-title {
+  text-align:center !important;
+}
+
+.card-header {
+  background:#fff;
+  text-align:center;
+  font-weight:500;
+  padding:2rem;
+  border-bottom:0rem;
+}
+
+.fa-check {
+  color:#FFC107 !important;
+}
+
+.card-footer {
+  background:#fff;
+  text-align:center;
+  font-weight:500;
+  padding:2rem;
+  border-top:0rem;
+  font-size:1.5rem;
+}
+
+.jumbotron {
+  border-radius:0rem !important;
+  margin:0rem !important;
+}
+
+.page-header {
+  background:#fff;
   text-align: center;
 }
 
-.bold {
-  font-weight: 500;
+.section {
+  margin-bottom:4rem;
+}
+
+.text-muted {
+  color:#9E9E9E !important;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0rem !important;
 }
