@@ -24,9 +24,18 @@ body {
   color: #424242;
 }
 
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 500;
+}
+
 .card {
   border:none !important;
   border-radius: 0rem !important;
+  margin-bottom:2rem;
 }
 
 .card-pricing {
@@ -90,4 +99,8 @@ body {
 
 .no-margin-bottom {
   margin-bottom: 0rem !important;
+}
+
+.justify {
+  text-align: justify;
 }

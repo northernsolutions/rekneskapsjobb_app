@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :about
+
   resources :for_employers
 
   root 'coming_soon#index'
